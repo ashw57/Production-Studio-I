@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CorkboardMaterial
+  m_Name: BookMaterial5
   m_Shader: {fileID: 4800000, guid: 7633a2fd8a3bed44791c9e952ff86e5d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -15,9 +15,7 @@ Material:
   - _MK_ARTISTIC_ANIMATION_STUTTER
   - _MK_ARTISTIC_PROJECTION_SCREEN_SPACE
   - _MK_DETAIL_BLEND_MIX
-  - _MK_ENVIRONMENT_REFLECTIONS_ADVANCED
   - _MK_FRESNEL_HIGHLIGHTS
-  - _MK_IRIDESCENCE_DEFAULT
   - _MK_LIGHT_RAMP
   - _MK_OUTLINE_HULL_CLIP
   - _MK_RECEIVE_SHADOWS
@@ -228,17 +226,17 @@ Material:
     - _DrawnClampMin: 0
     - _DrawnMapScale: 8.3
     - _DstBlend: 0
-    - _EnvironmentReflections: 2
+    - _EnvironmentReflections: 0
     - _FresnelHighlights: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _GoochRampIntensity: 0.5
     - _HatchingMapScale: 5
-    - _IndirectFade: 0.402
+    - _IndirectFade: 1
     - _Initialized: 1
     - _InputTab: 1
-    - _Iridescence: 1
+    - _Iridescence: 0
     - _IridescenceSize: 1
     - _IridescenceSmoothness: 0.5
     - _IridescenceThresholdOffset: 0.25
@@ -305,13 +303,13 @@ Material:
     - _ZTest: 4
     - _ZWrite: 1
     m_Colors:
-    - _AlbedoColor: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
-    - _Color: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
+    - _AlbedoColor: {r: 0.5566038, g: 0.1496529, b: 0.1496529, a: 1}
+    - _Color: {r: 0.5566038, g: 0.1496529, b: 0.1496529, a: 1}
     - _DetailColor: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveBorderColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GoochBrightColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
-    - _GoochDarkColor: {r: 0.21559611, g: 0.19312921, b: 0.26415092, a: 1}
+    - _GoochBrightColor: {r: 1, g: 0.6367924, b: 0.6367924, a: 1}
+    - _GoochDarkColor: {r: 0.4528302, g: 0.10466359, b: 0.20502509, a: 1}
     - _IridescenceColor: {r: 1, g: 1, b: 1, a: 0.5}
     - _LightTransmissionColor: {r: 1, g: 0.65, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
