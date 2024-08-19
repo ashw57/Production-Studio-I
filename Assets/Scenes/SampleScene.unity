@@ -215,8 +215,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257909518}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0061665247, y: 0.9906848, z: -0.12728767, w: 0.0479943}
-  m_LocalPosition: {x: 4.63, y: 14.54, z: -0.5}
+  m_LocalRotation: {x: 0.0040325276, y: 0.9846197, z: -0.1731532, w: 0.022930598}
+  m_LocalPosition: {x: 4.63, y: 15.86, z: 2.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -382,14 +382,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 550520805}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0035848478, y: -0.9925642, z: 0.11786504, w: -0.030188693}
-  m_LocalPosition: {x: 4.8, y: 12.87, z: 3.45}
+  m_LocalRotation: {x: 0.004095019, y: -0.99042827, z: 0.13463886, w: -0.030123727}
+  m_LocalPosition: {x: 4.27, y: 13.77, z: 6.79}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1317984037}
   m_Father: {fileID: 1135447806}
-  m_LocalEulerAnglesHint: {x: 13.519, y: -183.584, z: -0.839}
+  m_LocalEulerAnglesHint: {x: 15.453, y: -183.615, z: -0.964}
 --- !u!114 &550520807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -408,7 +408,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
+  m_LookAt: {fileID: 1272195977}
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
@@ -457,8 +457,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 1, g: 0.9796732, b: 0.9103774, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 1, g: 0.95590645, b: 0.7971698, a: 1}
+  m_Intensity: 0.87
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -966,6 +966,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220552883}
   m_Mesh: {fileID: -2962087738072221581, guid: 19af78285228da343ad516251a2583f6, type: 3}
+--- !u!4 &1272195977 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3713367607751465794, guid: 19af78285228da343ad516251a2583f6, type: 3}
+  m_PrefabInstance: {fileID: 1625900766}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1317586118
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,14 +996,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1317586118}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9946457, z: -0, w: -0.1033436}
-  m_LocalPosition: {x: 0, y: 10.22, z: 2.17}
+  m_LocalRotation: {x: 0.008584641, y: -0.9912081, z: 0.082624145, w: -0.10298646}
+  m_LocalPosition: {x: 0.51, y: 11.35, z: 3.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1761832116}
   m_Father: {fileID: 1135447806}
-  m_LocalEulerAnglesHint: {x: 0, y: -191.863, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.325, y: -192.025, z: -1.977}
 --- !u!114 &1317586120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1017,7 +1022,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
+  m_LookAt: {fileID: 1738614410}
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
@@ -1139,7 +1144,7 @@ GameObject:
   - component: {fileID: 1481826083}
   m_Layer: 0
   m_Name: Paper4 (1)
-  m_TagString: Untagged
+  m_TagString: CorkboardPapers
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1153,7 +1158,7 @@ Transform:
   m_GameObject: {fileID: 1481826081}
   serializedVersion: 2
   m_LocalRotation: {x: 0.6506488, y: -0.013636578, z: 0.011687322, w: 0.7591664}
-  m_LocalPosition: {x: -0.1137, y: 0.2545107, z: -0.1031}
+  m_LocalPosition: {x: -0.1137, y: 0.2545107, z: -0.103}
   m_LocalScale: {x: 0.82322, y: 0.82322, z: 0.6937738}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1314,6 +1319,14 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: d461d1c1bc54d4a4eb56a4cb3cad5a8f, type: 2}
+    - target: {fileID: -8938430562520171526, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2954
+      objectReference: {fileID: 0}
+    - target: {fileID: -8938430562520171526, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0725
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19af78285228da343ad516251a2583f6, type: 3}
       propertyPath: m_LocalScale.x
       value: 36.17891
@@ -1366,6 +1379,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8367053203865633537, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: m_TagString
+      value: CorkboardPapers
+      objectReference: {fileID: 0}
+    - target: {fileID: -7809573613937861618, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0067
+      objectReference: {fileID: 0}
+    - target: {fileID: -7753119558079634511, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: m_TagString
+      value: PaintJar
+      objectReference: {fileID: 0}
     - target: {fileID: -7614863508718261959, guid: 19af78285228da343ad516251a2583f6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1390,6 +1415,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 258883605bdad254e91d7f063f95b606, type: 2}
+    - target: {fileID: -6592485770388652957, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: m_TagString
+      value: LarryTheLobster
+      objectReference: {fileID: 0}
     - target: {fileID: -6152812177617209971, guid: 19af78285228da343ad516251a2583f6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1402,6 +1431,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 9513af916a5304547ab62b61d510c678, type: 2}
+    - target: {fileID: -6047895274953716259, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: m_TagString
+      value: CorkboardPapers
+      objectReference: {fileID: 0}
     - target: {fileID: -6036399560858191671, guid: 19af78285228da343ad516251a2583f6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1414,6 +1447,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: 1a0cfaa0d16cba244a17c6b5772e9d25, type: 2}
+    - target: {fileID: -5933387464315920350, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e13644947a597fe4697ff08e5844b6ad, type: 2}
     - target: {fileID: -5694216385619891048, guid: 19af78285228da343ad516251a2583f6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1442,6 +1479,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.1088
       objectReference: {fileID: 0}
+    - target: {fileID: -5065851524761200155, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e13644947a597fe4697ff08e5844b6ad, type: 2}
     - target: {fileID: -4277338062323118971, guid: 19af78285228da343ad516251a2583f6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1450,10 +1491,18 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 258883605bdad254e91d7f063f95b606, type: 2}
+    - target: {fileID: -3482085882602428156, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8053fc3302c90674887a08caabd56ecd, type: 2}
     - target: {fileID: -3311499747356524220, guid: 19af78285228da343ad516251a2583f6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7ef5855d993f0d84087ae462c385a858, type: 2}
+    - target: {fileID: -2775363913387643871, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1896
+      objectReference: {fileID: 0}
     - target: {fileID: -2120598669457232243, guid: 19af78285228da343ad516251a2583f6, type: 3}
       propertyPath: m_StaticShadowCaster
       value: 0
@@ -1470,6 +1519,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: 1a0cfaa0d16cba244a17c6b5772e9d25, type: 2}
+    - target: {fileID: -1594759221229875694, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e13644947a597fe4697ff08e5844b6ad, type: 2}
     - target: {fileID: -1477681178816211470, guid: 19af78285228da343ad516251a2583f6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1502,6 +1555,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: 1a0cfaa0d16cba244a17c6b5772e9d25, type: 2}
+    - target: {fileID: -484519448197601688, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: m_TagString
+      value: CorkboardPapers
+      objectReference: {fileID: 0}
     - target: {fileID: -210477813971318222, guid: 19af78285228da343ad516251a2583f6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1510,6 +1567,14 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: 1a0cfaa0d16cba244a17c6b5772e9d25, type: 2}
+    - target: {fileID: 247140410065721731, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4e93590df1e85fd458c10b8cfa4cac88, type: 2}
+    - target: {fileID: 694734497140694546, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: m_TagString
+      value: Mug
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 19af78285228da343ad516251a2583f6, type: 3}
       propertyPath: m_Name
       value: RoomScene
@@ -1550,14 +1615,30 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: e13644947a597fe4697ff08e5844b6ad, type: 2}
+    - target: {fileID: 3566390031902043909, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7f11087ea1dc1384c8b670a38744ec37, type: 2}
     - target: {fileID: 4043589417086719481, guid: 19af78285228da343ad516251a2583f6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: c0b411dd159b2d041bd1cb36bf185257, type: 2}
+    - target: {fileID: 4238715221626264924, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: m_TagString
+      value: Monitor
+      objectReference: {fileID: 0}
     - target: {fileID: 4327872946441830714, guid: 19af78285228da343ad516251a2583f6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 258883605bdad254e91d7f063f95b606, type: 2}
+    - target: {fileID: 4435975243367328521, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e13644947a597fe4697ff08e5844b6ad, type: 2}
+    - target: {fileID: 4451607393663051884, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: m_TagString
+      value: CorkboardPapers
+      objectReference: {fileID: 0}
     - target: {fileID: 4803813084240995372, guid: 19af78285228da343ad516251a2583f6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1618,6 +1699,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b352128f862456e488b27da6cab1b13f, type: 2}
+    - target: {fileID: 7195080198113403186, guid: 19af78285228da343ad516251a2583f6, type: 3}
+      propertyPath: m_TagString
+      value: CorkboardPapers
+      objectReference: {fileID: 0}
     - target: {fileID: 7321006913710845608, guid: 19af78285228da343ad516251a2583f6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1688,6 +1773,11 @@ Transform:
 --- !u!4 &1677764192 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8938430562520171526, guid: 19af78285228da343ad516251a2583f6, type: 3}
+  m_PrefabInstance: {fileID: 1625900766}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1738614410 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1269152290361681709, guid: 19af78285228da343ad516251a2583f6, type: 3}
   m_PrefabInstance: {fileID: 1625900766}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1761832115
@@ -2047,7 +2137,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 17.72
+      scalar: 10
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -2100,7 +2190,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.2
+      scalar: 0.1
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -2218,7 +2308,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.14
+      scalar: 0.1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -2534,7 +2624,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0.03
-    gravitySource: 0
+    gravitySource: 1
     maxNumParticles: 250
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
@@ -2542,7 +2632,7 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: -0.015
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -2596,10 +2686,10 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 8
-    angle: 0.74
-    length: 5
+    angle: 0
+    length: 3.16
     boxThickness: {x: 0, y: 0, z: 0}
-    radiusThickness: 1
+    radiusThickness: 0
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
@@ -2678,11 +2768,11 @@ ParticleSystem:
     m_TextureColorAffectsParticles: 1
     m_TextureAlphaAffectsParticles: 1
     m_TextureBilinearFiltering: 0
-    randomDirectionAmount: 0.45
-    sphericalDirectionAmount: 0
-    randomPositionAmount: 0.12
+    randomDirectionAmount: 0.21
+    sphericalDirectionAmount: 0.79
+    randomPositionAmount: 1.28
     radius:
-      value: 1.69
+      value: 2.19
       mode: 0
       spread: 0
       speed:
@@ -2917,8 +3007,8 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
-          time: 0.0077323914
-          value: 0.4317932
+          time: 0
+          value: 1
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -2927,7 +3017,7 @@ ParticleSystem:
           outWeight: 0.33333334
         - serializedVersion: 3
           time: 1
-          value: 0.01420784
+          value: 0
           inSlope: 1
           outSlope: 1
           tangentMode: 0
@@ -3231,7 +3321,7 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   ColorModule:
-    enabled: 0
+    enabled: 1
     gradient:
       serializedVersion: 2
       minMaxState: 1
@@ -3239,9 +3329,9 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 1, b: 1, a: 1}
-        key1: {r: 1, g: 1, b: 1, a: 1}
-        key2: {r: 0, g: 0, b: 0, a: 0}
+        key0: {r: 1, g: 0.96155703, b: 0.759434, a: 0.75686276}
+        key1: {r: 1, g: 1, b: 1, a: 0.75686276}
+        key2: {r: 0, g: 0, b: 0, a: 1}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
@@ -3257,14 +3347,14 @@ ParticleSystem:
         ctime7: 0
         atime0: 0
         atime1: 65535
-        atime2: 0
+        atime2: 65535
         atime3: 0
         atime4: 0
         atime5: 0
         atime6: 0
         atime7: 0
         m_Mode: 0
-        m_ColorSpace: -1
+        m_ColorSpace: 0
         m_NumColorKeys: 2
         m_NumAlphaKeys: 2
       minGradient:
@@ -4620,7 +4710,7 @@ ParticleSystem:
     strength:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.17
+      scalar: 0.1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4777,7 +4867,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     separateAxes: 0
-    frequency: 0.17
+    frequency: 0.1
     damping: 1
     octaves: 1
     octaveMultiplier: 0.5
@@ -4786,7 +4876,7 @@ ParticleSystem:
     scrollSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.15
+      scalar: 0
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -5316,7 +5406,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    range: {x: 0.73, y: 2.15}
+    range: {x: 0.36, y: 2}
     separateAxes: 0
   RotationBySpeedModule:
     enabled: 0
@@ -6695,13 +6785,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2014843048}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.49871325, y: -0.50128347, z: 0.50128347, w: 0.49871325}
-  m_LocalPosition: {x: 11.06, y: 14.66, z: 5.28}
-  m_LocalScale: {x: 2.6882, y: 2.6882, z: 2.6882}
+  m_LocalRotation: {x: 0.4848452, y: -0.5073683, z: 0.5147086, w: 0.4925217}
+  m_LocalPosition: {x: 3.72, y: 23.16, z: 0.78}
+  m_LocalScale: {x: 6.4661965, y: 6.4661965, z: 3.9266624}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0.295, y: -90, z: 90}
+  m_LocalEulerAnglesHint: {x: 89.139, y: -2.564, z: 89.998}
 --- !u!1 &2020386551
 GameObject:
   m_ObjectHideFlags: 3
@@ -6823,7 +6913,7 @@ Transform:
   m_GameObject: {fileID: 2140125086}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.9989071, z: -0, w: -0.046741504}
-  m_LocalPosition: {x: -2.92, y: 13.76, z: 1.51}
+  m_LocalPosition: {x: -2.92, y: 13.76, z: 7.58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
