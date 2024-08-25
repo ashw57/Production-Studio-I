@@ -19,6 +19,7 @@ Material:
   - _MK_FRESNEL_HIGHLIGHTS
   - _MK_LIGHT_TRANSMISSION_TRANSLUCENT
   - _MK_OUTLINE_HULL_CLIP
+  - _MK_OUTLINE_NOISE
   - _MK_RECEIVE_SHADOWS
   - _MK_THRESHOLD_MAP
   m_InvalidKeywords:
@@ -260,8 +261,8 @@ Material:
     - _OutlineData: 0
     - _OutlineFadeMax: 2
     - _OutlineFadeMin: 0.25
-    - _OutlineNoise: 0
-    - _OutlineSize: 5
+    - _OutlineNoise: 1
+    - _OutlineSize: 0
     - _OutlineTab: 1
     - _OverwriteBlend: 0
     - _Parallax: 0.02
@@ -312,7 +313,7 @@ Material:
     - _GoochDarkColor: {r: 0.504628, g: 0.5288306, b: 0.5660378, a: 1}
     - _IridescenceColor: {r: 1, g: 1, b: 1, a: 0.5}
     - _LightTransmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimBrightColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimDarkColor: {r: 0, g: 0, b: 0, a: 1}

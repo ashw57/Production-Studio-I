@@ -37,8 +37,10 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _OutlineSize: 50
     m_Colors:
     - _GoochDarkColor: {r: 0.9622642, g: 0.908016, b: 0.43120328, a: 1}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

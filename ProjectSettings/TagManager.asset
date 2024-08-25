@@ -9,6 +9,7 @@ TagManager:
   - Monitor
   - LarryTheLobster
   - Mug
+  - Selectable
   layers:
   - Default
   - TransparentFX
