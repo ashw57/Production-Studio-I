@@ -134,7 +134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &87908794
 Transform:
   m_ObjectHideFlags: 0
@@ -351,7 +351,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &550520806
 Transform:
   m_ObjectHideFlags: 0
@@ -917,15 +917,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afaacccfad12c9649a89ef88189700e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameras: []
-  Main: {fileID: 0}
-  Lobster: {fileID: 0}
-  Monitor: {fileID: 550520805}
-  Corkboard: {fileID: 2140125086}
-  DragonStatue: {fileID: 87908793}
-  PaintJar: {fileID: 1317586118}
-  startCamera: {fileID: 0}
-  currentCam: {fileID: 0}
 --- !u!1 &1220552883
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,7 +1024,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1317586119
 Transform:
   m_ObjectHideFlags: 0
@@ -6959,7 +6950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2140125087
 Transform:
   m_ObjectHideFlags: 0
